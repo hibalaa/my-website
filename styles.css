@@ -1,0 +1,115 @@
+        /* General Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: whitesmoke;
+            color: #333;
+            text-align: center;
+            margin: 0;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: gray;
+            padding: 20px;
+            color: bisque;
+        }
+
+        h1 {
+            margin: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-radius: 10px;
+        }
+
+        p {
+            font-style: italic;
+            color: black;
+            margin-top: 10px;
+        }
+
+        /* Navigation Bar Styling */
+        nav {
+            margin-top: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: bisque;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: bisque;
+            color: gray;
+        }
+
+        /* Main Section Styling */
+        main {
+            margin-top: 40px;
+            padding: 20px;
+        }
+
+        h2 {
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 20px 0;
+        }
+
+        ul li a {
+            text-decoration: none;
+            font-size: 18px;
+            color: bisque;
+            font-weight: bold;
+        }
+
+        ul li a:hover {
+            color: #FF5722;
+            text-decoration: underline;
+        }
+
+        /* Footer Styling */
+        footer {
+            margin-top: 40px;
+            background-color: gray;
+            color: bisque;
+            padding: 10px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            h1 {
+                width: 100%;
+                padding: 10px;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
